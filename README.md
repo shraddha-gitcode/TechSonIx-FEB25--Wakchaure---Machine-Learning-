@@ -1,12 +1,11 @@
 # TechSonIx-FEB25--Wakchaure---Machine-Learning-
 Handwritten Digit Recognition Using Convolutional Neural Network (CNN)
+
 Introduction
 
 This is a project I worked on to classify handwritten digits using a Convolutional Neural Network (CNN). The main objective was to train a deep learning model capable of recognizing digits (0–9) with high accuracy, based on the popular MNIST dataset.
 
-
 The MNIST dataset contains 70,000 grayscale images, each 28x28 pixels in size. It is commonly used as a benchmark for image recognition models. In this project, I applied my skills in data preprocessing, model building, training, and evaluation to achieve excellent performance in digit recognition.
-
 
 This project showcases not only how CNNs work but also how to implement them using frameworks like TensorFlow and Keras. It is designed to be a complete and user-friendly learning experience for anyone curious about machine learning and image classification.
 
@@ -16,17 +15,15 @@ Features of My Project
 
 Comprehensive Workflow: Covers all key steps in machine learning—data preprocessing, training, evaluation, and predictions.
 
-
 Custom CNN Design: Built a convolutional neural network from scratch, including convolutional, pooling, and fully connected layers.
-
 
 Real-Time Monitoring: Implemented functionality to track accuracy and loss during training for better performance monitoring.
 
-
 Prediction Capability: Developed a script that uses the trained model to predict new, unseen handwritten digits.
 
-
 Graphical Visualizations: Plotted training and validation accuracy graphs to show the learning process over epochs.
+
+
 
 Setup and Installation
 
@@ -80,7 +77,7 @@ How My Project Works
 I started by loading the MNIST dataset, which contains 60,000 training images and 10,000 test images. Each image was normalized (scaled to values between 0 and 1) and reshaped to match the CNN's input requirements (28x28x1).
 
 
-3. Building the CNN Model
+2. Building the CNN Model
    
 The CNN consists of the following layers:
 
@@ -103,11 +100,11 @@ Dense Layers: Fully connected layers that make the final classification.
 I trained the CNN using the MNIST training dataset over five epochs, where the model learned to associate images with their corresponding digit labels. I used the Adam optimizer for efficient weight adjustments and sparse categorical cross-entropy for the loss function.
 
 
-5. Evaluating Performance
+4. Evaluating Performance
 After training, the model's accuracy was evaluated on the test dataset containing 10,000 images. The final test accuracy was ~99%, indicating the model's strong generalization ability to new, unseen data.
 
 
-7. Visualizing Results
+5. Visualizing Results
 
 To monitor the learning process, I plotted the training and validation accuracy over epochs. The graphs demonstrated consistent improvement, highlighting the model's effective learning.
 
